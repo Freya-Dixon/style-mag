@@ -1,0 +1,22 @@
+.NavBar {
+        margin-top: 30px;
+        list-style: none;
+        display: flex;
+        color: black;
+        justify-content: space-around;
+        padding: 20px;
+        align-items: center;
+     li {
+        
+        &:hover {
+            color: #4DCDBC;
+        }
+        .images {
+           width: 60px;
+           height: 60px;
+           margin: 0;
+           padding: 0;
+           
+        }
+     }
+}

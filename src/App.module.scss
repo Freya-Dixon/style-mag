@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@500&display=swap');
+
+.allCards {
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    flex-wrap: wrap;
+    margin-left: 20px;
+   
+}
