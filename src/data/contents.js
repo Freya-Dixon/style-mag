@@ -66,6 +66,11 @@ const contents =  [
 "img": "https://i.pinimg.com/originals/f5/39/84/f53984ae04e42ac087bedcf5a35f03f0.jpg",
 "link": "Travel"
 },
+{ "title": "Upcoming release: Dune (2021)" ,
+"info": "",
+"img": "https://media.vogue.co.uk/photos/6123668ae17fae5ab4a16b9c/master/w_1600,c_limit/DUNE%2520-%2520Timoth%25C3%25A9e%2520Chalamet%2520and%2520Rebecca%2520Ferguson.jpeg",
+"link": "Travel"
+},
 ]
     
 export default contents;

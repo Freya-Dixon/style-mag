@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Cards.module.scss";
-const Card = (props) => { 
+const Cards = (props) => { 
   const {
    title,
    info,
@@ -9,13 +9,14 @@ const Card = (props) => {
   } = props.content
     return (
       <article className={styles.cards}>
+                    <h2 className={styles.titles}>{title}</h2>
           <img src={img} alt={title} className={styles.images}/>
-            <h2 className={styles.titles}>{title}</h2>
+
             <p className={styles.infos}>{info}</p>
             <p className={styles.smallTitle}>{type}</p>
             </article>
     )
 }
 
-export default Card
+export default Cards
 
